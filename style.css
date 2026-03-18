@@ -25,6 +25,9 @@
     padding-left: 5%;    /* Moves everything slightly away from the left edge */
 }
 
+.text {
+    flex 1;
+}
 #HOME img {
     width: 300px;        /* Sets a basic size for the moon */
 }
