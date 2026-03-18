@@ -18,5 +18,13 @@
 }
 
 #HOME {
-    padding-top: 100px;
+    padding-top: 100px;  /* Stops text from hiding under the nav */
+    display: flex;       /* Puts text and image side-by-side */
+    align-items: center; /* Centers them vertically */
+    gap: 50px;           /* Puts a simple gap between text and image */
+    padding-left: 5%;    /* Moves everything slightly away from the left edge */
+}
+
+#HOME img {
+    width: 300px;        /* Sets a basic size for the moon */
 }
