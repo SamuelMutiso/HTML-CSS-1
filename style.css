@@ -30,4 +30,28 @@
 }
 #HOME img {
     width: 300px;        /* Sets a basic size for the moon */
+    height: auto;
+    border-radius: 10px;
+}
+#ABOUT {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row-reverse; /* This flips the image to the left and text to the right */
+    align-items: center;
+    gap: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f9f9f9;  /* A very light grey so it looks different from HOME */
+}
+
+#ABOUT {
+    flex-direction: row-reverse; /* Image on left, text on right */
+    background-color: #f9f9f9;
+}
+/* Contacts Section */
+#CONTACTS {
+    display: block; /* Overrides flex for the footer */
+    text-align: center;
+    background-color: #081e29;
+    color: white;
 }
