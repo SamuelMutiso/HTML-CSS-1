@@ -33,6 +33,9 @@
     height: auto;
     border-radius: 10px;
 }
+#HOME {
+    background-color: white;
+}
 #ABOUT {
     padding-top: 100px;
     display: flex;
